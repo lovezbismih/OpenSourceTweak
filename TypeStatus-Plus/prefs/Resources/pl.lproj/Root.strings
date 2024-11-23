@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Default text for sharing the tweak. -->	
+	<key>SHARE_TEXT</key>
+	<string>Wypróbuj TypeStatus Plus! 💬</string>
+	
+	<!-- Button leading to sub-section of the settings. -->
+	<key>PROVIDERS</key>
+	<string>Dostawcy</string>
+
+	<!-- Button leading to sub-section of the settings. -->
+	<key>ALERTS</key>
+	<string>Banery</string>
+
+	<!-- Button leading to sub-section of the settings. -->
+	<key>VIBRATIONS</key>
+	<string>Wibracje</string>
+</dict>
+</plist>

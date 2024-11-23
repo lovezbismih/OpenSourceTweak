@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Title. -->
+	<key>ALERTS</key>
+	<string>Avvisi</string>
+
+	<!-- Header for alert type selection. -->
+	<key>ALERT_TYPE</key>
+	<string>Tipo Di Avviso</string>
+
+	<!-- Buttons shown in the segmented controls for the alert type. -->
+	<key>OFF</key>
+	<string>Spento</string>
+	<key>ALERT_TYPE_ICON</key>
+	<string>Solo Icona</string>
+	<key>ALERT_TYPE_OVERLAY</key>
+	<string>Barra Di Stato</string>
+
+	<!-- Explanation of the alert type setting. -->
+	<key>ALERT_TYPE_EXPLANATION</key>
+	<string>Si applica solo alle notifiche dai provider di TypeStatus Plus.</string>
+
+	<!-- Switch to toggle showing alerts in foreground. -->
+	<key>SHOW_IN_FOREGROUND</key>
+	<string>Mostra in primo piano</string>
+
+	<!-- Explanation of the show in foreground switch. -->
+	<key>SHOW_IN_FOREGROUND_EXPLANATION</key>
+	<string>Mostra le notifiche anche se l'app inviante è in primo piano.</string>
+
+	<!-- Switch to wake the screen when the device is locked. -->
+	<key>WAKE_WHEN_LOCKED</key>
+	<string>Sveglia Quando Bloccato</string>
+
+	<!-- Explanation of the above setting. -->
+	<key>WAKE_WHEN_LOCKED_EXPLANATION</key>
+	<string>Accendi lo schermo quando ricevi una notifica di TypeStatus mentre il dispositivo è bloccato.</string>
+
+	<!-- Header for tap action section. -->
+	<key>TAP_TO_OPEN_ACTION</key>
+	<string>Azione tocco</string>
+
+	<!-- Options shown for the tap action. -->
+	<key>TAP_TO_OPEN_ACTION_OPEN</key>
+	<string>Apri app</string>
+	<key>TAP_TO_OPEN_ACTION_DISMISS</key>
+	<string>Chiudi avviso</string>
+
+	<!-- Header for vibration options. -->
+	<key>VIBRATIONS</key>
+	<string>Vibrazioni</string>
+
+	<!-- Header for notification center options. -->
+	<key>NOTIFICATION_CENTER</key>
+	<string>Centro Notifiche</string>
+
+	<!-- Note displayed below the notification center section. -->
+	<key>NOTIFICATION_CENTER_EXPLANATION</key>
+	<string>Gli avvisi del Centro Notifiche sostituiscono gli avvisi standard di TypeStatus</string>
+
+	<!-- Opzione per mostrare banner sulla schermata di blocco. -->
+	<key>ON_LOCK_SCREEN</key>
+	<string>Sulla schermata di blocco</string>
+
+	<!-- Opzione per mostrare banner sulla schermata iniziale. -->
+	<key>ON_HOME_SCREEN</key>
+	<string>Sulla schermata iniziale</string>
+
+	<!-- Opzione per mostrare banner in applicazioni. -->
+	<key>IN_APPS</key>
+	<string>In applicazioni</string>
+	<!-- Option to use the respective app icon. -->
+	<key>ICON</key>
+	<string>Icona</string>
+
+	<!-- Option to use the respective app icon. -->
+	<key>APP_ICON</key>
+	<string>Icona app</string>
+
+	<!-- Explanation of the above options. -->
+	<key>ICON_EXPLANATION</key>
+	<string>Usa l'icona di TypeStatus Plus nelle notifiche, o l'icona della rispettiva app.</string>
+
+	<!-- Passare a mantenere tutte le notifiche nel centro di notifica. -->
+	<key>KEEP_ALL_BULLETINS</key>
+	<string>Mantenere tutte le notifiche.</string>
+
+	<!-- Option to keep only one alert. -->
+	<key>KEEP_BULLETINS_ONE</key>
+	<string>Un avviso</string>
+
+	<!-- Option to keep all alerts (until the respective app is opened). -->
+	<key>KEEP_BULLETINS_ALL</key>
+	<string>Tutti gli avvisi</string>
+
+	<!-- Option to keep all alerts (even if the respective app is opened). -->
+	<key>KEEP_BULLETINS_FOREVER</key>
+	<string>Tutti gli avvisi, per sempre</string>
+
+	<!-- Spiegazione del mastio passare tutte le notifiche. -->
+	<key>KEEP_ALL_BULLETINS_EXPLANATION</key>
+	<string>Mostra tutti gli avvisi TypeStatus nel centro di notifica e bloccare schermo, o mostrare solo quelli più recenti.</string>
+
+	<!-- Button to test the alerts. -->
+	<key>TEST_ALERT</key>
+	<string>Avviso Di Prova</string>
+</dict>
+</plist>

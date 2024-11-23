@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "running chown and chmod on chfilter"
+
+chown root:wheel /usr/bin/chfilter
+chmod 6755 /usr/bin/chfilter
+
+if [ -e /Library/MobileSubstrate/DynamicLibraries/NoClipboardForYou.plist.bak ]; then
+    echo "restoring filter file"
+
+    mv /Library/MobileSubstrate/DynamicLibraries/NoClipboardForYou.plist.bak /Library/MobileSubstrate/DynamicLibraries/NoClipboardForYou.plist
+
+fi

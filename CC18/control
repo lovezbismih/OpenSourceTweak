@@ -1,0 +1,9 @@
+Package: com.dvntm.cc18
+Name: CC18
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Round CC modules replication, like in iOS 18
+Maintainer: dvntm
+Author: dvntm
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)

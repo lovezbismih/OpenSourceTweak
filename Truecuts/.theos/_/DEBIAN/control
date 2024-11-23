@@ -1,0 +1,10 @@
+Package: com.ethanrdoesmc.truecuts
+Name: Truecuts
+Depends: mobilesubstrate, firmware (>=13.0)
+Description: Allow all Shortcuts automations to be run without asking!
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.1.0-2
+Installed-Size: 152

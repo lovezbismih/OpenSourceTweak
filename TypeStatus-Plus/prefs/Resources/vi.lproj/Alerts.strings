@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Title. -->
+	<key>ALERTS</key>
+	<string>Thông báo</string>
+
+	<!-- Header for alert type selection. -->
+	<key>ALERT_TYPE</key>
+	<string>Những kiểu thông báo</string>
+
+	<!-- Buttons shown in the segmented controls for the alert type. -->
+	<key>OFF</key>
+	<string>Tắt</string>
+	<key>ALERT_TYPE_ICON</key>
+	<string>Chỉ hiện biểu tượng</string>
+	<key>ALERT_TYPE_OVERLAY</key>
+	<string>Thanh trạng thái</string>
+
+	<!-- Explanation of the alert type setting. -->
+	<key>ALERT_TYPE_EXPLANATION</key>
+	<string>Chỉ áp dụng cho thông báo từ nhà cung cấp TypeStatus Plus.</string>
+
+	<!-- Switch to toggle show in foreground. -->
+	<key>SHOW_IN_FOREGROUND</key>
+	<string>Hiện trên phía sau</string>
+
+	<!-- Explanation of the show in foreground switch. -->
+	<key>SHOW_IN_FOREGROUND_EXPLANATION</key>
+	<string>Hiển thị thông báo ngay cả khi ứng dụng gửi đang ở phía sau.</string>
+
+	<!-- Switch to wake the screen when the device is locked. -->
+	<key>WAKE_WHEN_LOCKED</key>
+	<string>Làm màn hình sáng khi thiết bị đang khoá máy.</string>
+
+	<!-- Explanation of the above setting. -->
+	<key>WAKE_WHEN_LOCKED_EXPLANATION</key>
+	<string>Mở màn hình khi nhận thông báo TypeStatus khi thiết bị đang khoá.</string>
+
+	<!-- Header for tap action section. -->
+	<key>TAP_TO_OPEN_ACTION</key>
+	<string>Những hành động khi chạm</string>
+
+	<!-- Options shown for the tap action. -->
+	<key>TAP_TO_OPEN_ACTION_OPEN</key>
+	<string>Mở ứng dụng</string>
+	<key>TAP_TO_OPEN_ACTION_DISMISS</key>
+	<string>Bỏ thông báo</string>
+
+	<!-- Header for vibration options. -->
+	<key>VIBRATIONS</key>
+	<string>Run</string>
+
+	<!-- Header for notification center options. -->
+	<key>NOTIFICATION_CENTER</key>
+	<string>Notification Center</string>
+
+	<!-- Note displayed below the notification center section. -->
+	<key>NOTIFICATION_CENTER_EXPLANATION</key>
+	<string>Notification Center thông báo đè lên TypeStatus thông báo.</string>
+
+	<!-- Option to show banners on the lock screen. -->
+	<key>ON_LOCK_SCREEN</key>
+	<string>Trên màn hình khoá</string>
+
+	<!-- Option to show banners on the home screen. -->
+	<key>ON_HOME_SCREEN</key>
+	<string>Trên màn hình chủ</string>
+
+	<!-- Option to show banners in apps. -->
+	<key>IN_APPS</key>
+	<string>Trong các ứng dụng</string>
+
+	<!-- Option to use the respective app icon. -->
+	<key>ICON</key>
+	<string>Icon</string>
+  
+  	<!-- Option to use the respective app icon. -->
+	<key>APP_ICON</key>
+	<string>Icon app</string>
+
+	<!-- Explanation of the above options. -->
+	<key>ICON_EXPLANATION</key>
+	<string>Dùng icon TypeStatus Plus trong thông báo, hoặc icon cho app cụ thể.</string>
+	
+	<!-- Label for the options on keeping notifications in the notification center. -->
+	<key>KEEP_BULLETINS</key>
+	<string>Giữ</string>
+  
+ 	<!-- Option to keep only one alert. -->
+	<key>KEEP_BULLETINS_ONE</key>
+	<string>Một cảnh báo</string>
+
+	<!-- Option to keep all alerts (until the respective app is opened). -->
+	<key>KEEP_BULLETINS_ALL</key>
+	<string>Tất cả cảnh báo</string>
+
+	<!-- Option to keep all alerts (even if the respective app is opened). -->
+	<key>KEEP_BULLETINS_FOREVER</key>T
+	<string>Tất cả cảnh báo, mãi mãi</string>
+
+	<!-- Explanation of the keep all notifications switch. -->
+	<key>KEEP_ALL_BULLETINS_EXPLANATION</key>
+	<string>Hiển thị tất cả các TypeStatus thông báo ở Trung Tâm Thông Báo và Màn Hình Khoá, hoặc chỉ hiển thị những thông báo mới nhất.</string>
+
+	<!-- Button to test the alerts. -->
+	<key>TEST_ALERT</key>
+	<string>Thử Thông Báo</string>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Header av status bar seksjon. -->
+	<key>STATUS_BAR</key>
+	<string>Status Bar</string>
+
+	<!-- Bytt for å vise uleste meldinger i status bar. -->
+	<key>UNREAD_COUNT</key>
+	<string>Antall Uleste</string>
+
+	<!-- knapp for valg av hvilken app den antall uleste meldings varsel som vil bli vist i status bar. -->
+	<key>SELECT_APPS</key>
+	<string>Velg Apps</string>
+
+	<!-- Forklaring for antall uleste meldinger varsel. -->
+	<key>UNREAD_COUNT_EXPLANATION</key>
+	<string>Viser antall uleste meldingsvarsler fra valgte app (s) i status bar.</string>
+</dict>
+</plist>

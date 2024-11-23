@@ -1,0 +1,10 @@
+Package: com.yulkytulky.youtubebgplayback
+Name: YoutubeBGPlayback
+Depends: mobilesubstrate
+Description: Background Playback for YouTube
+Maintainer: YulkyTulky
+Author: YulkyTulky
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0-2+debug
+Installed-Size: 216

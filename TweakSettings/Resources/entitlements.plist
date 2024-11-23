@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <!--    Application Entitlements    -->
+        <key>application-identifier</key>
+        <string>com.creaturecoding.tweaksettings</string>
+        <key>platform-application</key>
+        <true/>
+
+        <!--    Library validation    -->
+        <key>dynamic-codesigning</key>
+        <true/>
+        <key>com.apple.private.skip-library-validation</key>
+        <true/>
+
+        <!--    Sandbox Escape    -->
+        <key>com.apple.private.security.container-required</key>
+        <false/>
+        <key>com.apple.private.security.no-container</key>
+        <true/>
+        <key>com.apple.private.security.no-sandbox</key>
+        <true/>
+        <key>com.apple.private.security.disk-device-access</key>
+        <true/>
+        <key>com.apple.private.security.system-application</key>
+        <true/>
+
+        <!--    Allow access to private containers    -->
+        <key>com.apple.private.security.storage.universalaccess</key>
+        <true/>
+        <key>com.apple.private.security.storage.containers</key>
+        <true/>
+        <key>com.apple.private.security.storage.AppBundles</key>
+        <true/>
+        <key>com.apple.private.security.storage.AppDataContainers</key>
+        <true/>
+
+
+        <key>com.apple.private.MobileContainerManager.allowed</key>
+        <true/>
+        <key>com.apple.private.MobileContainerManager.otherIdLookup</key>
+        <true/>
+        <key>com.apple.private.MobileContainerManager.otherIdentifierLookup</key>
+        <true/>
+        <key>com.apple.private.MobileContainerManager.userManagedAssets</key>
+        <true/>
+
+        <key>com.apple.springboard.opensensitiveurl</key>
+        <true/>
+        <key>com.apple.springboard.presentPowerDownUI</key>
+        <true/>
+
+        <key>com.apple.frontboard.delete-application-snapshots</key>
+        <true/>
+        <key>com.apple.frontboard.shutdown</key>
+        <true/>
+        <key>com.apple.frontboardservices.display-layout-monitor</key>
+        <true/>
+
+        <!--	Fix EAGLContext crash when loading custom images on iOS 14.x   -->
+        <key>com.apple.security.iokit-user-client-class</key>
+        <array>
+            <string>IOUserClient</string>
+            <string>AGXDeviceUserClient</string>
+            <string>IOHDIXControllerUserClient</string>
+            <string>IOSurfaceRootUserClient</string>
+
+            <!--    Support Apple Pencil    -->
+            <string>IOMobileFramebufferUserClient</string>
+        </array>
+
+        <!--    Allow private TCC usage within the app    -->
+        <key>com.apple.private.tcc.allow</key>
+        <array>
+            <string>kTCCServiceFaceID</string>
+            <string>kTCCServiceMediaLibrary</string>
+        </array>
+
+        <!--    Allow oppening application urls    -->
+        <key>com.apple.springboard.opensensitiveurl</key>
+        <true/>
+    </dict>
+</plist>

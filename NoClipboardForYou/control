@@ -1,0 +1,10 @@
+Package: com.shiftcmdk.noclipboardforyou
+Name: NoClipboardForYou
+Depends: mobilesubstrate
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Prevent apps from accessing your clipboard.
+Maintainer: shiftcmdk
+Author: shiftcmdk
+Section: Tweaks
+Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.noclipboardforyou

@@ -1,0 +1,24 @@
+---
+name: InstaNotAStalker
+icmd: killall -9 Instagram Preferences
+
+all:
+  archs:
+    - arm64
+    - arm64e
+
+InstaNotAStalker:
+    type: tweak
+    # A list of logos files. See variables section for more info. 
+    logos_files:
+        - Tweak.x
+
+InstaNotAStalkerPreferences:
+    dir: InstaNotAStalkerPreferences
+    type: prefs
+    objc_files:
+        - NASRootListController.m
+        - NASRootHeaderView.m
+        - NASSwitchCell.m
+        - NASKillButtonCell.m
+        - NASDynamicTextEditCell.m

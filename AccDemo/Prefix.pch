@@ -1,0 +1,15 @@
+#ifdef __OBJC__
+
+#define kPrefPath @"/var/mobile/Library/Preferences/com.brend0n.accdemo.plist"
+#define kBundlePath @"/Library/PreferenceBundles/accDemo.bundle"
+
+#define kSpringBoardBundleId @"com.apple.springboard"
+
+#define AccNSLocalizedString(key) NSLocalizedStringFromTableInBundle((key),@"Root",[NSBundle bundleWithPath:kBundlePath],nil)
+
+#if DEBUG
+#else
+#define NSLog(FORMAT, ...)
+#endif
+
+#endif //__OBJC__

@@ -1,0 +1,34 @@
+"CMM.Settings" = "%@ ayarları";
+
+"Confirmation.Header" = "Onay Gerektir";
+"Favorites" = "Favori kişiler";
+"RecentCalls" = "Son aramalar";
+"Confirmation.Footer" = "İlgili sekmelerdeki kişilere tıkladığınızda, arama yapmadan önce bir onay penceresi görüntülenecektir.";
+
+"Recents.Header" = "Son Aramalar Ayarları";
+"NoTelCalls" = "Telefon aramalarını gizle";
+"NoTelCallsDesc" = "Tüm telefon aramalarını son aramalar listesinden hariç tutar.";
+"NoAppCalls" = "Uygulama aramalarını gizle";
+"NoAppCallsDesc" = "Üçüncü taraf uygulamalardan (WhatsApp, Telegram vb.) yapılan tüm aramaları son aramalar listesinden hariç tutar.";
+"NoFTCalls" = "FaceTime aramalarını gizle";
+"NoFTCallsDesc" = "Tüm FaceTime aramalarını son aramalar listesinden hariç tutar.";
+"Recents.Footer" = "En az bir arama türü görünür kalmalıdır. Değişiklikler, uygulama yeniden başlatıldıktan sonra geçerli olacaktır.";
+
+"Tabs.Header" = "Sekme Ayarları";
+"HideFavsTab" = "Hızlı arama sekmesini gizle";
+"HideRecentsTab" = "Son aramalar sekmesini gizle";
+"HideContactsTab" = "Kişiler sekmesini gizle";
+"HideKeypadTab" = "Klavye mesaj sekmesini gizle";
+"HideVoicemailTab" = "Sesli mesaj sekmesini gizle";
+
+"ResetSettings" = "Ayarları varsayılanlara sıfırla";
+
+"FollowMe" = "Beni Twitter'da takip et";
+"Github" = "Projenin kaynak kodu";
+"Patreon" = "Patreon'da beni takip et";
+"Coffee" = "Bana bir fincan kahve al";
+
+"CallConfirm" = "%@ adlı kişiyi aramak istiyor musunuz?";
+"Hint" = "İpucu: %@";
+"Warning" = "Dikkat";
+"Error.OneTab" = "En az bir sekme etkin kalmalıdır";

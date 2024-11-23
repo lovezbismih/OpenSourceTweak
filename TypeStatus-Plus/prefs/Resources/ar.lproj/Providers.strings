@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Title. -->
+	<key>PROVIDERS</key>
+	<string>البرامج المدعومة:</string>
+
+	<!-- Explanation of the providers for TypeStatus Plus. -->
+	<key>PROVIDERS_EXPLANATION</key>
+	<string>إضافات البرامج المدعومة هي إضافات منفردة لكل تطبيق. يحتوي (TypeStatus Plus)  على بعض من هذه الإضافات, ويمكن للمطورين بتطوير إضافات خاصة بهم, إذا لم تجد إضافة لبرنامجك المفضل, فقم بالبحث عنه في الـ Cydia.
+
+	بعض الإضافات تتطلب إبقاء البرنامج مشتغل في الخلفية حتى ولو كان الجهاز مقفل, وقد يكون له تأثير على عمر البطارية.
+
+	الإضافة لبرنامج (الموسيقى) يدعم جميع البرامج التي تظهر اسم الوسائط المشتغلة في مركز التحكم وفي شاشة القفل.</string>
+
+	<!-- Explanation used when there are no providers installed. -->
+	<key>NO_PROVIDERS_EXPLANATION</key>
+	<string>لا توجد إضافات منصبة. لابد من وجود خطأ ما. يرجى المحاولة بـ(تنصيب) او (إعادة تنصيب) الحزمة (TypeStatus Plus Providers) في الـ Cydia.</string>
+
+	<!-- Title used on an alert when a provider’s preferences fail to load. -->
+	<key>FAILED_TO_LOAD_PREFS_TITLE</key>
+	<string>تعذر تحميل الإعدادات لـ %@ بسبب حدوث خطأ.</string>
+
+	<!-- Body used on an alert when a provider’s preferences fail to load. -->
+	<key>FAILED_TO_LOAD_PREFS_BODY</key>
+	<string>تحقق من وجود تحديثات لـ (TypeStatus Plus) . إتصل بالمطورين اذا لازال الخطأ قائماً.</string>
+</dict>
+</plist>

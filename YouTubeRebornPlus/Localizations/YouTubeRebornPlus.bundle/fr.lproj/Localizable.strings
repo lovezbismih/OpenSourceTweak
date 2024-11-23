@@ -1,0 +1,157 @@
+// About
+"ABOUT" = "À propos";
+
+"VERSION" = "Version de YouTubeRebornPlus : %@";
+"VERSION_CHECK" = "Touchez pour vérifier les mises à jour !";
+
+"REPORT_AN_ISSUE" = "Signaler un problème";
+"ADD_TITLE" = "Ajoutez votre titre ici...";
+
+"QUIT_YOUTUBE" = "Quitter YouTube";
+
+"RESTART_YOUTUBE" = "Redémarrez YouTube pour appliquer les modifications";
+
+// App appearance
+"APP_THEME" = "Apparence de l'application";
+"THEME_OPTIONS" = "Options de thème";
+
+"DARK_THEME" = "Thème sombre";
+
+"DEFAULT_THEME" = "Par défaut";
+"DEFAULT_THEME_DESC" = "Thème sombre (plus) par défaut de YouTube. Un redémarrage de l'application est nécessaire.";
+
+"OLD_DARK_THEME" = "Ancien thème sombre";
+"OLD_DARK_THEME_DESC" = "Ancien thème sombre de YouTube (thème gris). Un redémarrage de l'application est nécessaire.";
+
+"OLED_DARK_THEME" = "Thème sombre OLED (expérimental)";
+"OLED_DARK_THEME_2" = "Thème sombre OLED";
+"OLED_DARK_THEME_DESC" = "Vrai thème sombre. Peut ne pas fonctionner correctement dans certains cas. Un redémarrage de l'application est nécessaire après avoir activé/désactivé cette option.";
+
+"OLED_KEYBOARD" = "Clavier OLED (expérimental)";
+"OLED_KEYBOARD_DESC" = "Peut ne pas fonctionner correctement dans certains cas. Un redémarrage de l'application est nécessaire.";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Options du lecteur vidéo";
+
+"SNAP_TO_CHAPTER" = "Désactiver le passage au chapitre";
+"SNAP_TO_CHAPTER_DESC" = "Désactive le passage automatique au chapitre lors de la recherche dans les vidéos. Un redémarrage de l'application est nécessaire.";
+
+"PINCH_TO_ZOOM" = "Désactiver le pincement pour zoomer";
+"PINCH_TO_ZOOM_DESC" = "Un redémarrage de l'application est nécessaire.";
+
+"YT_MINIPLAYER" = "Activer le Miniplayer pour toutes les vidéos YouTube";
+"YT_MINIPLAYER_DESC" = "Par exemple, les vidéos pour enfants.";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Options de l'Overlay de contrôles vidéo";
+
+"ENABLE_SHARE_BUTTON" = "Activer le bouton de partage";
+"ENABLE_SHARE_BUTTON_DESC" = "Activer le bouton de partage dans l'overlay de contrôles vidéo.";
+
+"ENABLE_SAVE_TO_PLAYLIST_BUTTON" = "Activer le bouton 'Enregistrer dans la playlist'";
+"ENABLE_SAVE_TO_PLAYLIST_BUTTON_DESC" = "Activer le bouton 'Enregistrer dans la playlist' dans l'overlay de contrôles vidéo.";
+
+"HIDE_HUD_MESSAGES" = "Masquer les messages HUD";
+"HIDE_HUD_MESSAGES_DESC" = "Exemple : Les sous-titres sont activés/désactivés, La boucle vidéo est activée,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Masquer les cartes de promotion payante";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Masquer la carte 'Contient des promotions payantes' dans certaines vidéos.";
+
+"HIDE_SHADOW_OVERLAY_BUTTONS" = "Masquer les boutons de l'Overlay d'ombre";
+"HIDE_SHADOW_OVERLAY_BUTTONS_DESC" = "Masquer l'Overlay d'ombre sur les boutons Lecture/Pause, Précédent, Suivant, Avancer et Rembobiner.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Masquer les boutons Précédent et Suivant";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Masquer les boutons Précédent et Suivant dans l'overlay de contrôles vidéo.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Remplacer les boutons Précédent et Suivant";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Remplacer les boutons Précédent et Suivant par les boutons Avance rapide et Rembobinage. Le redémarrage de l'application est requis.";
+
+"HIDE_HOVER_CARD" = "Masquer les cartes de survol des écrans de fin (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Masquer les écrans de fin du créateur (vignettes) à la fin des vidéos.";
+
+"HIDE_RIGHT_PANEL" = "Masquer le panneau de droite en mode plein écran";
+"HIDE_RIGHT_PANEL_DESC" = "Le redémarrage de l'application est requis.";
+
+"HIDE_HEATWAVES" = "Masquer les Heatwaves";
+"HIDE_HEATWAVES_DESC" = "Masque les Heatwaves dans le lecteur vidéo. Le redémarrage de l'application est requis.";
+
+// App settings overlay options
+"APP_SETTINGS_OVERLAY_OPTIONS" = "Options de l'overlay des paramètres de l'application";
+
+"HIDE_ACCOUNT_SECTION" = "Masquer la section 'Compte'";
+"HIDE_DONTEATMYCONTENT_SECTION" = "Masquer la section 'DontEatMyContent'";
+"HIDE_YOUTUBERETURNDISLIKE_SECTION" = "Masquer la section 'YouTube Return Dislike'";
+"HIDE_YOUPIP_SECTION" = "Masquer la section 'YouPiP'";
+"HIDE_AUTOPLAY_SECTION" = "Masquer la section 'Lecture automatique'";
+"HIDE_TRYNEWFEATURES_SECTION" = "Masquer la section 'Essayer de nouvelles fonctionnalités'";
+"HIDE_VIDEOQUALITYPREFERENCES_SECTION" = "Masquer la section 'Préférences de qualité vidéo'";
+"HIDE_NOTIFICATIONS_SECTION" = "Masquer la section 'Notifications'";
+"HIDE_MANAGEALLHISTORY_SECTION" = "Masquer la section 'Gérer tout l'historique'";
+"HIDE_YOURDATAINYOUTUBE_SECTION" = "Masquer la section 'Vos données dans YouTube'";
+"HIDE_PRIVACY_SECTION" = "Masquer la section 'Confidentialité'";
+"HIDE_LIVECHAT_SECTION" = "Masquer la section 'Chat en direct'";
+
+// UI interface options
+"UI_INTERFACE_OPTIONS" = "Options de l'interface utilisateur";
+
+"LOW_CONTRAST_MODE" = "Mode de faible contraste";
+"LOW_CONTRAST_MODE_DESC" = "Cette option diminuera le contraste des textes et des boutons, tout comme l'ancienne interface de YouTube. Un redémarrage de l'application est nécessaire.";
+
+"FIX_LOW_CONTRAST_MODE" = "Réparer le mode de faible contraste";
+"FIX_LOW_CONTRAST_MODE_DESC" = "Cela réparera la fonctionnalité du mode de faible contraste en la faisant passer pour YouTube v17.38.10. Un redémarrage de l'application est nécessaire.";
+
+"DISABLE_MODERN_BUTTONS" = "Désactiver les boutons modernes";
+"DISABLE_MODERN_BUTTONS_DESC" = "Cela supprimera les nouveaux boutons modernes dans YouTube, mais pas tous. Un redémarrage de l'application est nécessaire.";
+
+"DISABLE_ROUNDED_CORNERS_ON_HINTS" = "Désactiver les coins arrondis sur les astuces";
+"DISABLE_ROUNDED_CORNERS_ON_HINTS_DESC" = "Cela fera en sorte que les astuces ne comportent pas de coins arrondis. Un redémarrage de l'application est nécessaire.";
+
+"DISABLE_MODERN_FLAGS" = "Désactiver les drapeaux modernes A/B";
+"DISABLE_MODERN_FLAGS_DESC" = "Cela désactivera tout drapeau moderne activé par défaut. Un redémarrage de l'application est nécessaire.";
+
+"HIDE_MODERN_INTERFACE" = "Masquer l'interface moderne (YTNoModernUI)";
+"HIDE_MODERN_INTERFACE_DESC" = "Activez cette option pour masquer tout élément moderne ajouté par YouTube. Supprime le mode Ambiant, le design arrondi & plus. Un redémarrage de l'application est nécessaire.";
+
+"APP_VERSION_SPOOFER" = "Activer le simulateur de version d'application";
+"APP_VERSION_SPOOFER_DESC" = "Activez cela pour utiliser le simulateur de version et sélectionnez votre version préférée ci-dessous. Un redémarrage de l'application est nécessaire.";
+"VERSION_SPOOFER_TITLE" = "Sélecteur de simulateur de version";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Divers";
+
+"ENABLE_YT_STARTUP_ANIMATION" = "Activer l'animation de démarrage de YouTube";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
+
+"STICK_NAVIGATION_BAR" = "Fixer la barre de navigation";
+"STICK_NAVIGATION_BAR_DESC" = "Activer pour faire rester la barre de navigation dans l'application lors du défilement.";
+
+"HIDE_CHIP_BAR" = "Masquer la barre supérieure";
+"HIDE_CHIP_BAR_DESC" = "Masquer la barre supérieure dans les flux d'accueil (Tendances, Musique, Jeux...) et les flux d'abonnements (Toutes les vidéos, Continuer à regarder...).";
+
+"CAST_CONFIRM" = "Alerte de confirmation avant le partage sur un autre écran (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Afficher une alerte de confirmation avant de diffuser sur un autre écran, pour éviter de prendre accidentellement le contrôle de la TV.";
+"CASTING" = "Casting";
+"MSG_ARE_YOU_SURE" = "Êtes-vous sûr de vouloir commencer le casting ?";
+"MSG_YES" = "Oui";
+"MSG_CANCEL" = "Annuler";
+
+"NEW_MINIPLAYER_STYLE" = "Nouveau style de barre de mini lecteur (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Un redémarrage de l'application est nécessaire.";
+
+"HIDE_SPONSORBLOCK_BUTTON" = "Masquer le bouton iSponsorBlock dans la barre de navigation";
+"HIDE_SPONSORBLOCK_BUTTON_DESC" = "";
+
+"HIDE_YOUTUBE_REBORN_BUTTON" = "Masquer le bouton YouTube Reborn dans la barre de navigation";
+"HIDE_YOUTUBE_REBORN_BUTTON_DESC" = "";
+
+"YT_SPEED" = "Activer YTSpeed";
+"YT_SPEED_DESC" = "Activer YTSpeed pour avoir plus d'options de vitesse de lecture. Un redémarrage de l'application est nécessaire.";
+
+"YT_RE_EXPLORE" = "Remplacer l'onglet Shorts par l'onglet Explorer (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "Un redémarrage de l'application est nécessaire.";
+
+"ENABLE_FLEX" = "Activer FLEX";
+"ENABLE_FLEX_DESC" = "Activer FLEX pour le débogage (non recommandé). Laissez cette option désactivée à moins que vous sachiez ce que vous faites.";
+
+// Other Localization
+"APP_RESTART_DESC" = "Un redémarrage de l'application est nécessaire.";

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Title. -->
+	<key>ALERTS</key>
+	<string>Уведомления</string>
+
+	<!-- Header for alert type selection. -->
+	<key>ALERT_TYPE</key>
+	<string>Тип уведомлений</string>
+
+	<!-- Buttons shown in the segmented controls for the alert type. -->
+	<key>OFF</key>
+	<string>Выкл</string>
+	<key>ALERT_TYPE_ICON</key>
+	<string>Только значок</string>
+	<key>ALERT_TYPE_OVERLAY</key>
+	<string>Статусбар</string>
+
+	<!-- Explanation of the alert type setting. -->
+	<key>ALERT_TYPE_EXPLANATION</key>
+	<string>Применимо только к уведомлениям от приложений, совместимых с TypeStatus Plus.</string>
+
+	<!-- Switch to toggle show in foreground. -->
+    <key>SHOW_IN_FOREGROUND</key>
+    <string>Показывать в активных</string>
+
+    <!-- Explanation of the show in foreground switch. -->
+    <key>SHOW_IN_FOREGROUND_EXPLANATION</key>
+    <string>Отображать уведомления, даже если приложение, их посылающее, открыто.</string>
+
+	<!-- Switch to wake the screen when the device is locked. -->
+	<key>WAKE_WHEN_LOCKED</key>
+	<string>Зажигать экран, когда заблокирован</string>
+
+	<!-- Explanation of the above setting. -->
+	<key>WAKE_WHEN_LOCKED_EXPLANATION</key>
+	<string>Включать экран, когда приходит уведомление от TypeStatus.</string>
+
+	<!-- Header for tap action section. -->
+	<key>TAP_TO_OPEN_ACTION</key>
+	<string>Действие По Нажатию На Баннер</string>
+
+	<!-- Options shown for the tap action. -->
+	<key>TAP_TO_OPEN_ACTION_OPEN</key>
+	<string>Открыть Приложение</string>
+	<key>TAP_TO_OPEN_ACTION_DISMISS</key>
+	<string>Закрыть Окно</string>
+
+	<!-- Header for vibration options. -->
+	<key>VIBRATIONS</key>
+	<string>Вибрация</string>
+
+	<!-- Header for notification center options. -->
+	<key>NOTIFICATION_CENTER</key>
+	<string>Центр уведомлений</string>
+
+	<!-- Note displayed below the notification center section. -->
+	<key>NOTIFICATION_CENTER_EXPLANATION</key>
+	<string>Оповещения центра уведомлений имеют больший приоритет по сравнению с уведомлениями статусбара</string>
+
+	<!-- Option to show banners on the lock screen. -->
+	<key>ON_LOCK_SCREEN</key>
+	<string>Когда заблокирован</string>
+
+	<!-- Option to show banners on the home screen. -->
+	<key>ON_HOME_SCREEN</key>
+	<string>На домашнем экране</string>
+
+	<!-- Option to show banners in apps. -->
+	<key>IN_APPS</key>
+	<string>В программах</string>
+
+	<!-- Option to use the respective app icon. -->
+	<key>ICON</key>
+	<string>Иконка</string>
+
+	<!-- Option to use the respective app icon. -->
+	<key>APP_ICON</key>
+	<string>Иконка Приложения</string>
+
+	<!-- Explanation of the above options. -->
+	<key>ICON_EXPLANATION</key>
+	<string>Использовать иконку TypeStatus Plus в уведомлениях, или же использовать иконку приложения.</string>
+
+	<!-- Label for the options on keeping notifications in the notification center. -->
+	<key>KEEP_BULLETINS</key>
+	<string>Оставить</string>
+
+	<!-- Option to keep only one alert. -->
+	<key>KEEP_BULLETINS_ONE</key>
+	<string>Одно Уведомление</string>
+
+	<!-- Option to keep all alerts (until the respective app is opened). -->
+	<key>KEEP_BULLETINS_ALL</key>
+	<string>Все Уведомления</string>
+
+	<!-- Option to keep all alerts (even if the respective app is opened). -->
+	<key>KEEP_BULLETINS_FOREVER</key>
+	<string>Все Уведомления, навсегда</string>
+
+	<!-- Explanation of the keep all notifications switch. -->
+	<key>KEEP_ALL_BULLETINS_EXPLANATION</key>
+	<string>Показывать все уведомления TypeStatus в центре уведомлений, или только последнее.</string>
+
+	<!-- Button to test the alerts. -->
+	<key>TEST_ALERT</key>
+	<string>Пробное уведомление</string>
+</dict>
+</plist>

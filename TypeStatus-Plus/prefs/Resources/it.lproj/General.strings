@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Intestazione di sezione barra di stato. -->
+	<key>STATUS_BAR</key>
+	<string>Barra di stato</string>
+
+	<!-- Passa per alternare la visualizzazione del conteggio non letti nella barra di stato. -->
+	<key>UNREAD_COUNT</key>
+	<string>Non leggere Conte</string>
+
+	<!-- Pulsante per la scelta da cui app contano verrà mostrato nella barra di stato delle notifiche non lette. -->
+	<key>SELECT_APPS</key>
+	<string>Seleziona le applicazioni</string>
+
+	<!-- Spiegazione delle notifiche non lette pulsante contano. -->
+	<key>UNREAD_COUNT_EXPLANATION</key>
+	<string>Mostra il numero di notifiche non lette dalle app selezionate nella status bar.</string>
+
+	<!-- Header of the Messages app section. -->
+	<key>MESSAGES_APP</key>
+	<string>App Messaggi</string>
+
+	<!-- Switch to toggle showing typing indicators in the conversation list. -->
+	<key>SHOW_LIST_TYPING_INDICATORS</key>
+	<string>Indicatori scrittura nella lista conversazioni</string>
+
+	<!-- Switch to toggle highlighting of failed messages. -->
+	<key>HIGHLIGHT_FAILED_MESSAGES</key>
+	<string>Evidenzia messaggi falliti</string>
+
+	<!-- Explanation of the highlight failed messages switch. -->
+	<key>HIGHLIGHT_FAILED_MESSAGES_EXPLANATION</key>
+	<string>Mostra i messaggi che falliscono l'invio con una bolla rossa.</string>
+</dict>
+</plist>

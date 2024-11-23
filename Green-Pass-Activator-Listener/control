@@ -1,0 +1,9 @@
+Package: com.0xkuj.greenpass
+Name: Green Pass
+Version: 1.1
+Architecture: iphoneos-arm
+Description: A tweak to show an image using activator gestures
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.muirey03.libimagepicker, libactivator, firmware (<< 14.0) | com.mrgcgamer.activatorcrashfix14
